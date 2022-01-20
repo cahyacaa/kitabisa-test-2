@@ -1,0 +1,18 @@
+{
+  "name": "kitabisa-test-2",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/cahyacaa/kitabisa-test-2.git",
+  "scripts": {
+    "start": "nodemon src"
+  },
+  "author": "cahya <cahya.nugroho03@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.27.0",
+    "jest": "^27.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
