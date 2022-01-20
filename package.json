@@ -9,6 +9,7 @@
   "author": "cahya <cahya.nugroho03@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^14.2.0",
     "fastify": "^3.27.0",
     "jest": "^27.4.7"
   },
