@@ -1,8 +1,4 @@
-const playerData = [{
-    id:1,
-    teamId:1,
-    name:'Roman Alex'
-}];
+const playerData = [];
 
 const playerRepo = {
     getPlayerById(id){

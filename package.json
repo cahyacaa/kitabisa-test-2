@@ -1,10 +1,13 @@
 {
   "name": "kitabisa-test-2",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "repository": "https://github.com/cahyacaa/kitabisa-test-2.git",
   "scripts": {
-    "start": "nodemon src"
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "jest": "jest test --forceExit",
+    "test": "yarn jest --coverage"
   },
   "author": "cahya <cahya.nugroho03@gmail.com>",
   "license": "MIT",
@@ -14,6 +17,7 @@
     "jest": "^27.4.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }

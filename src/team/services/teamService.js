@@ -1,12 +1,18 @@
+const playerRepo = require('../../repository/playerRepo');
 const teamRepo = require('../../repository/teamRepo');
 
 
-function getDetailTeam(id){
+function getDetailTeam(id) {
     const teamData = teamRepo.getTeamData(id);
-    return teamData;
+    const playerData = playerRepo.getPlayeByTeamIdData(id);
+    const result = {
+        ...teamData
+    };
+    if(playerData.length>0) result.player = playerData;
+    return result;
 }
 
-function createTeam(data){
+function createTeam(data) {
     const teamData = teamRepo.createTeam(data);
     return teamData;
 }

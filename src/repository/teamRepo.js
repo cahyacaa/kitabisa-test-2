@@ -1,20 +1,9 @@
-const playerRepo = require('./playerRepo');
-const teamData = [{
-    id:1,
-    name:'Wings Team'
-}]
+const teamData = [];
 
 const teamRepo = {
-    getAllData(){
-        return teamData;
-    },
     getTeamData(id){
-        const data = teamData.filter(team=>{
-            const player = playerRepo.getPlayeByTeamIdData(id);
-            team.player = player;
-            return team.id === id;
-        });
-        return data;
+        const index= teamData.findIndex(team=> id === team.id);
+        return teamData[index];
     },
     createTeam(data){
         const id = teamData.length + 1;
