@@ -22,7 +22,6 @@ const teamRepo = {
             id,
             ...data
         });
-        console.log(teamData)
         return {
             id,...data
         }

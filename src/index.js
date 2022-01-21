@@ -1,4 +1,4 @@
-const routes = require('./controller/routes')
+const routes = require('./routes/routes')
 require('dotenv').config();
 // Require the framework and instantiate it
 const fastify = require('fastify')();

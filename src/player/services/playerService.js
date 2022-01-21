@@ -1,4 +1,4 @@
-const playerRepo = require("../repository/playerRepo");
+const playerRepo = require("../../repository/playerRepo");
 
 function getDetailPlayer(id){
     const playerData = playerRepo.getPlayerById(id);

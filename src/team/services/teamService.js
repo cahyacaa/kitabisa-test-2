@@ -1,4 +1,4 @@
-const teamRepo = require('../repository/teamRepo');
+const teamRepo = require('../../repository/teamRepo');
 
 
 function getDetailTeam(id){

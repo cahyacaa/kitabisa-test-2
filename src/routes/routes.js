@@ -1,11 +1,11 @@
-const teamController = require('./teamController');
-const playerController = require('./playerController');
+const teamController = require('../team/controller/teamController');
+const playerController = require('../player/controller/playerController');
 const {
     createTeam
-} = require('../schema/teamSchema');
+} = require('../team/schema/teamSchema');
 const {
     createPlayer
-} = require('../schema/playerSchema');
+} = require('../player/schema/playerSchema');
 
 const routes = [{
     method: 'GET',
