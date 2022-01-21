@@ -1,4 +1,4 @@
-![ci workflow](https://github.com/cahyacaa/luwjistik-screening-be-cahya/actions/workflows/ci.yml/badge.svg)
+![ci workflow](https://github.com/cahyacaa/kitabisa-test-2/actions/workflows/ci.yml/badge.svg)
 
 # Kita Bisa Problem 2
 
