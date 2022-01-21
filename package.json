@@ -6,8 +6,8 @@
   "scripts": {
     "start:dev": "nodemon src/server.js",
     "start": "node src/server.js",
-    "jest": "jest test --forceExit",
-    "test": "yarn jest --coverage"
+    "jest": "jest test --coverage --forceExit",
+    "test": "yarn jest"
   },
   "author": "cahya <cahya.nugroho03@gmail.com>",
   "license": "MIT",
